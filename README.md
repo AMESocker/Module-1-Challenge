@@ -67,3 +67,5 @@ THEN I find a concise, descriptive title
     Repository contains multiple descriptive commit messages.
 
     Repository contains a quality README file with description, screenshot, and link to deployed application.
+
+**_NOTE:_** User story and acceptence criteria provided by UC Berkeley Extension Coding Bootcamp.
