@@ -14,7 +14,7 @@ Acceptance Criteria
 
 GIVEN a webpage meets accessibility standards
 
-==In Process==
+==Complete==
 WHEN I view the source code
 THEN I find semantic HTML elements
 
