@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<!--checked semantics using:https://learn-the-web.algonquindesign.ca/topics/html-semantics-checklist/-->
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
     <!--update title to company name-->
     <title>Horiseon</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!--Replace all non-semantic "div" elements with semantic elements-->
     <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<TCC class="seo">seo</TCC>n</h1>
         <!--insert nav tag-->
         <!--update css tags-->
         <nav>
@@ -28,9 +28,11 @@
             </ul>
         </nav>
         <!--replace div tag-->
+        <!--This seems like a weird place to put a background image. At this time, not sure how to improve.-->
         <section class="hero" title="Group of People surrounding a desk looking at paperwork.">
+        <!--Background alt text can be described by Title attribute-->
     </header>
-    <!--Background alt text can be described by Title attribute-->
+
     <!--image is sitting between sections, moved to header section-->
     <main class="content">
         <!--insert id for link-->
@@ -88,7 +90,7 @@
     </aside>
     <!--rename div to footer-->
     <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
